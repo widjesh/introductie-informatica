@@ -1,5 +1,5 @@
 
-#include <iostream>
+// #include <iostream>
 
 
 //Example 1 - Function Orders
@@ -23,15 +23,15 @@
 
 
 //Example 2 - For Loop
-#include <iostream>
+// #include <iostream>
 
-int main() {
-    // i = i + 1
-    for (int i = 1; i <= 5; i = i + 1) { //1 , 2 , 3, 4, 5
-        std::cout << "Value of i: " << i << std::endl;
-    }
-    return 0;
-}
+// int main() {
+//     // i = i + 1
+//     for (int i = 1; i <= 5; i = i + 1) { //1 , 2 , 3, 4, 5
+//         std::cout << "Value of i: " << i << std::endl;
+//     }
+//     return 0;
+// }
 
 
 //Example 3 - While Loop
@@ -91,14 +91,11 @@ int main() {
 //     return 0;
 // }
 
-// #include <iostream>
+#include <iostream>
 
-// int main() {
-//    int num = 0;
-//    while(num<4){
-//     for(int count = 0;count < 6; count = count + 3){
-//         std::cout <<"Hello\n";
-//         num = num + 1;
-//     }
-//    }
-// }
+int main() {
+    for(int count = 0;count < 6; count = count + 3){
+        std::cout <<"Hello\n";
+    }
+   return 0;
+}
